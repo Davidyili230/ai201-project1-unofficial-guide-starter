@@ -10,7 +10,7 @@
 ## Domain
 
 <!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
-     student reviews of CS professors at [university]
+     Student reviews of CS professors at [university]. This knowledge is valuable because students often rely on only one or two sources when evaluating professors, but outdated reviews can provide misleading information. Multiple platforms offer anonymous reviews that encourage candid feedback. Official course evaluations are often not public, limited to end-of-semester snapshots, and lack the depth and currency of crowdsourced reviews. By aggregating the newest information across diverse sources, we create a more complete, real-time picture than any single channel provides.
 
 ---
 
