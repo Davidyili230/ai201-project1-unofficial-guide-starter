@@ -10,6 +10,7 @@
 ## Domain
 
 <!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
+     student reviews of CS professors at [university]
 
 ---
 
@@ -20,16 +21,16 @@
 
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | RateMyProfessors | CS dept professor reviews (ratings, comments) | https://www.ratemyprofessors.com |
+| 2 | Reddit r/[university] | Student discussions about CS professors and courses | https://www.reddit.com/r/[university]/ |
+| 3 | Reddit r/compsci | General CS education experiences and professor recommendations | https://www.reddit.com/r/compsci/ |
+| 4 | Course Evaluations Archive | Official end-of-semester course feedback (if public) | Internal university records |
+| 5 | Discord/Slack channels | Real-time student peer reviews and course recommendations | Campus communities |
+| 6 | CS Department Review Portal | Department-specific professor feedback (if available) | Departmental intranet |
+| 7 | Course forums (Piazza, Ed) | Student and TA comments about professor teaching style | Course-specific platforms |
+| 8 | Alumni social groups | Post-graduation reflections on CS professors and their impact | Facebook groups, LinkedIn |
+| 9 | GitHub discussions | Open-source course discussions and retrospectives | GitHub course repos |
+| 10 | University course reviews | Aggregated reviews from multiple semesters | Campus-wide review platform |
 
 ---
 
