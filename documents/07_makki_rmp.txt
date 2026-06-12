@@ -1,0 +1,12 @@
+SOURCE: RateMyProfessors
+PROFESSOR: Mahdi Makki
+DEPARTMENT: Computer Science, Hunter College
+URL: https://www.ratemyprofessors.com/professor/2157279
+OVERALL RATING: 5.0/5 | WOULD TAKE AGAIN: 100% | DIFFICULTY: 3.1/5
+
+STUDENT REVIEWS:
+- "Super chill professor. Knows his stuff and will answer any question you have." (CSCI435, May 2nd, 2026)
+- "He genuinely cares about teaching and supporting his students. He's fair and approachable." (CSCI435, Mar 18th, 2025)
+- "He really cares aside from teaching in giving good feedback whether it is for an interview." (CSCI435, Feb 1st, 2025)
+- "Prof. Makki has a lot of industry insights that were hugely beneficial in my job search." (CSCI435, Jan 12th, 2025)
+- "Prof Makki is truly a nice dude. He answered all my questions without being bothered." (CSCI435, Dec 28th, 2024)

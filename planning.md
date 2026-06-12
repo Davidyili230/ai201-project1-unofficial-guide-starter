@@ -10,7 +10,7 @@
 ## Domain
 
 <!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
-     Student reviews of CS professors at [university]. This knowledge is valuable because students often rely on only one or two sources when evaluating professors, but outdated reviews can provide misleading information. Multiple platforms offer anonymous reviews that encourage candid feedback. Official course evaluations are often not public, limited to end-of-semester snapshots, and lack the depth and currency of crowdsourced reviews. By aggregating the newest information across diverse sources, we create a more complete, real-time picture than any single channel provides.
+     Student reviews of Computer Science professors at Hunter College (CUNY). This knowledge is valuable because students often rely on only one or two sources when evaluating professors, but outdated reviews can provide misleading information. Multiple platforms offer anonymous reviews that encourage candid feedback. Official course evaluations are often not public, limited to end-of-semester snapshots, and lack the depth and currency of crowdsourced reviews. By aggregating the newest information across diverse sources, we create a more complete, real-time picture than any single channel provides.
 
 ---
 
@@ -19,18 +19,20 @@
 <!-- List your specific sources: URLs, subreddit names, forum threads, or file descriptions.
      Aim for at least 10 sources that together cover different subtopics or perspectives within your domain. -->
 
-| # | Source | Description | URL or location |
-|---|--------|-------------|-----------------|
-| 1 | RateMyProfessors | CS dept professor reviews (ratings, comments) | https://www.ratemyprofessors.com |
-| 2 | Reddit r/[university] | Student discussions about CS professors and courses | https://www.reddit.com/r/[university]/ |
-| 3 | Reddit r/compsci | General CS education experiences and professor recommendations | https://www.reddit.com/r/compsci/ |
-| 4 | Course Evaluations Archive | Official end-of-semester course feedback (if public) | Internal university records |
-| 5 | Discord/Slack channels | Real-time student peer reviews and course recommendations | Campus communities |
-| 6 | CS Department Review Portal | Department-specific professor feedback (if available) | Departmental intranet |
-| 7 | Course forums (Piazza, Ed) | Student and TA comments about professor teaching style | Course-specific platforms |
-| 8 | Alumni social groups | Post-graduation reflections on CS professors and their impact | Facebook groups, LinkedIn |
-| 9 | GitHub discussions | Open-source course discussions and retrospectives | GitHub course repos |
-| 10 | University course reviews | Aggregated reviews from multiple semesters | Campus-wide review platform |
+All sources are saved as text files in `documents/`. The corpus deliberately spans high-rated (5.0, 4.2, 4.0), mixed (3.7, 3.8, 2.6), and low-rated (2.1–2.3) professors so the system can answer comparative questions, plus one official syllabus for ground-truth course context.
+
+| # | Source | Description | URL / file |
+|---|--------|-------------|------------|
+| 1 | RateMyProfessors — Raffi Khatchadourian | CSCI 335; 4.2/5, 82% take-again. Career-focused, caring | [link](https://www.ratemyprofessors.com/professor/2259095) → `documents/01_khatchadourian_rmp.txt` |
+| 2 | RateMyProfessors — Susan Epstein | CSCI 150/353; 2.1/5, 16% take-again. Tough, unclear rubric | [link](https://www.ratemyprofessors.com/professor/192300) → `documents/02_susan_epstein_rmp.txt` |
+| 3 | RateMyProfessors — Eric Schweitzer | CSCI 265; 2.6/5. Pop quizzes, polarizing | [link](https://www.ratemyprofessors.com/professor/257192) → `documents/03_schweitzer_rmp.txt` |
+| 4 | RateMyProfessors — Jeff Epstein | CSCI 135/235; 3.7/5. Clear explainer, mixed reviews over time | [link](https://www.ratemyprofessors.com/professor/1280182) → `documents/04_jeff_epstein_rmp.txt` |
+| 5 | RateMyProfessors — Katherine St. John | CSCI 127; 2.3/5. Heavy workload, clear criteria | [link](https://www.ratemyprofessors.com/professor/2324096) → `documents/05_st_john_rmp.txt` |
+| 6 | RateMyProfessors — Raj Korpan | CSCI 150/499; 4.0/5, 80% take-again. Fair grading, helpful | [link](https://www.ratemyprofessors.com/professor/2659561) → `documents/06_korpan_rmp.txt` |
+| 7 | RateMyProfessors — Mahdi Makki | CSCI 435; 5.0/5, 100% take-again. Industry insights | [link](https://www.ratemyprofessors.com/professor/2157279) → `documents/07_makki_rmp.txt` |
+| 8 | RateMyProfessors — Khant Ko Naing | CSCI 135; 3.8/5. Helpful, organized lectures | [link](https://www.ratemyprofessors.com/professor/2693848) → `documents/08_ko_naing_rmp.txt` |
+| 9 | RateMyProfessors — Tong Yi | CSCI 13500; 2.2/5. Tough grader, lecture clarity complaints | [link](https://www.ratemyprofessors.com/professor/2634841) → `documents/09_tong_yi_rmp.txt` |
+| 10 | CSCI 13500 Syllabus (Tong Yi) | Official course doc: ~15–20 hrs/week workload expectation | [link](https://tong-yee.github.io/135/syllabus_135_s21.html) → `documents/10_csci135_syllabus.txt` |
 
 ---
 
@@ -41,11 +43,20 @@
      numbers fit the structure of your documents.
      A review-heavy corpus warrants different chunking than a long FAQ. -->
 
-**Chunk size:** 300 characters (~75 tokens)
+**Chunk size:** 300 characters target (~75 tokens)
 
-**Overlap:** 50 characters (~15 tokens)
+**Overlap:** 0 characters (changed from 50 during implementation — see below)
 
-**Reasoning:** Reviews are opinion-heavy, short-to-medium documents (typically 1–2 sentences). A 300 character chunk captures one complete review or a discrete observation (e.g., "Great lectures but hard exams"). Smaller chunks (< 200 chars) lose context and split single opinions. Larger chunks (> 600 chars) mix multiple review aspects, reducing retrieval precision. Small overlap (50 chars) preserves key adjectives and context when boundaries fall mid-opinion (e.g., "very responsive office hours" doesn't get split). This prevents queries like "office hours" from missing chunks cut at phrase boundaries.
+**Reasoning:** Reviews are opinion-heavy, short-to-medium documents (typically 1–2 sentences). A 300 character chunk captures one complete review or a discrete observation (e.g., "Great lectures but hard exams"). Smaller chunks (< 200 chars) lose context and split single opinions. Larger chunks (> 600 chars) mix multiple review aspects, reducing retrieval precision.
+
+**Implementation notes (Milestone 3, `ingest.py`):**
+
+- **Boundary-aware packing, not blind character slicing.** The chunker packs whole review lines (reviews) or whole paragraphs (syllabus prose, which is hard-wrapped mid-sentence) up to the ~300-char target, never cutting a word or opinion in half. An early blind-slice version produced fragments like `"KE AGAIN: 82% | DIFFICULTY..."`; boundary packing eliminates them.
+- **Overlap changed 50 → 0.** The original 50-char overlap existed to avoid splitting a single opinion across a boundary. Because boundary-aware packing already guarantees opinions are never split mid-thought, overlap is redundant — and a literal character overlap only duplicated whole reviews across adjacent chunks (the same opinion retrieved twice) or re-introduced mid-word fragments. So overlap is set to 0. (`CHUNK_OVERLAP` is still a parameter; the packing loop has a documented hook to carry trailing units if a future, longer-form source needs it.)
+- **Header boilerplate stripped to metadata.** The `SOURCE:/PROFESSOR:/DEPARTMENT:/URL:/OVERALL RATING:` header on every file is boilerplate, not content — it was producing useless metadata-only chunks. It is now parsed into chunk metadata (`source`, `professor`, `doc_type`) and dropped from the chunk body.
+- **Per-chunk context prefix for self-containment.** Each chunk is prefixed with `Professor <name>, RateMyProfessors — <rating>.` (or the syllabus title). This directly addresses Anticipated Challenge #2 (attribution loss): a chunk like "Her accent is hard to understand" is meaningless without the professor's name, so the name + rating travel with every chunk and are embedded alongside the opinion.
+
+**Final chunk count:** 42 chunks across 10 documents (avg ~224 chars, range 118–316; 0 empty). This is below the 50-chunk rule-of-thumb, which is expected here: the corpus is genuinely small (~8 KB of text total), and packing 1–3 short reviews per 300-char chunk is the right granularity for this content — shrinking chunks further to clear 50 would split single opinions, which the strategy above explicitly avoids.
 
 ---
 
@@ -74,11 +85,11 @@
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | What do students say about Professor [Name]'s lecture clarity in Data Structures? | Students mention whether lectures are clear/organized or hard to follow; specific comments on pace, examples, or note-taking difficulty |
-| 2 | How much time do students report spending on [Professor's Name] assignments per week? | Estimates of weekly hours (e.g., "5–10 hours", "very time-consuming") and whether workload feels reasonable for a CS course |
-| 3 | Are Professor [Name]'s office hours easy to attend, and how responsive is he/she to student questions? | Comments on office hour availability, wait times, willingness to help, or difficulty getting answers |
-| 4 | What do students say about fairness and clarity of grading rubrics in [Professor's Name]'s exams? | Student feedback on whether rubrics are clear upfront, if grading surprises occur, or if exam difficulty matches course material |
-| 5 | Do students feel [Professor's Name]'s course material connects to real-world CS applications? | Comments on relevance to industry, project types, real-world problem-solving emphasis, or theory-vs-practice balance |
+| 1 | What do students say about the clarity of Professor Tong Yi's lectures in CSCI 13500? | Negative on clarity: students report the accent is hard to understand, lectures are "pretty useless," and lecture difficulty doesn't match the (harder) assignments. Several only passed via tutoring. |
+| 2 | How much time per week does CSCI 13500 (Software Analysis & Design 1) require? | ~15–20 hours/week total: the syllabus states most students spend 10–15 hours/week at a computer in addition to class time. Reviews corroborate it's time-consuming. |
+| 3 | How responsive is Professor Mahdi Makki to student questions? | Very responsive/positive: "answers any question you have," "answered all my questions without being bothered," fair and approachable; 5.0/5, 100% would take again. |
+| 4 | What do students say about the clarity of Professor Susan Epstein's grading rubrics? | Negative: "lots of homework without clear rubric," "really picky on how you do stuff," slides contain mistakes. 2.1/5, 16% would take again. (Note: one dissenting review says they "learned more than in any other CS class.") |
+| 5 | Does Professor Mahdi Makki's course connect to real-world / industry CS work? | Yes: students cite "a lot of industry insights," feedback useful "whether it is for an interview," and that insights were "hugely beneficial in my job search." |
 
 ---
 
@@ -129,7 +140,7 @@ graph LR
      "I'll give Claude my Chunking Strategy section and ask it to implement chunk_text()
      with my specified chunk size and overlap" is a plan. -->
 
-**Milestone 3 — Ingestion and chunking:**
+**Milestone 3 — Ingestion and chunking:** Gave Claude the Documents table, Chunking Strategy, and pipeline diagram from this file and asked it to implement `ingest.py` (load → clean → chunk → write `chunks.json`). It first generated a blind 300/50 character-window splitter; I reviewed the output and overrode two things: (1) the header block was being embedded as content, so I had it strip the `SOURCE:/PROFESSOR:/URL:/RATING:` header into metadata and prepend a `professor + rating` context line to each chunk for self-containment; (2) the character overlap was producing mid-word fragments, and since I switched to review/paragraph-boundary packing (which never splits an opinion), I set overlap to 0. Verified by printing 5 representative + 5 random chunks and confirming all 5 eval questions' source text survived into intact chunks.
 
 **Milestone 4 — Embedding and retrieval:**
 

@@ -1,0 +1,11 @@
+SOURCE: RateMyProfessors
+PROFESSOR: Katherine St. John
+DEPARTMENT: Computer Science, Hunter College
+URL: https://www.ratemyprofessors.com/professor/2324096
+OVERALL RATING: 2.3/5 | WOULD TAKE AGAIN: 31% | DIFFICULTY: 3.7/5
+
+STUDENT REVIEWS:
+- "You cannot just show up and expect everything to go well. You personally have to put in the effort and practice to earn a good grade." (CS127, May 24th, 2026)
+- "She offers a lot of extra credit and has clear grading criteria." (CS127, Feb 11th, 2026)
+- "Work was tedious as you were expected to do homework every other day as well as code reviews and quizzes." (CSCI12700, Feb 3rd, 2026)
+- "Much of the work was also barely covered in the lectures so you were pretty much on your own." (CSCI12700, Feb 3rd, 2026)

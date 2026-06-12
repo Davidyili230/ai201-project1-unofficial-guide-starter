@@ -1,0 +1,11 @@
+SOURCE: RateMyProfessors
+PROFESSOR: Raj Korpan
+DEPARTMENT: Computer Science, Hunter College
+URL: https://www.ratemyprofessors.com/professor/2659561
+OVERALL RATING: 4.0/5 | WOULD TAKE AGAIN: 80% | DIFFICULTY: 2.8/5
+
+STUDENT REVIEWS:
+- "Fair grade distribution, 55% from all the tests combined while the rest is from class opening sheets and HW." (CSCI150, Jun 2nd, 2026)
+- "Just make sure you stay on top of your project and attend class. Raj was pretty cool." (CSCI499, May 27th, 2025)
+- "If you are not within 10 seconds of the presentation time limit, even if you are early, you will lose A LOT of points." (CSCI499, Nov 10th, 2023)
+- "If you raise your hand then he will come over and help you with anything you need." (CS201, Dec 17th, 2021)

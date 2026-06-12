@@ -1,0 +1,11 @@
+SOURCE: RateMyProfessors
+PROFESSOR: Raffi Khatchadourian
+DEPARTMENT: Computer Science, Hunter College
+URL: https://www.ratemyprofessors.com/professor/2259095
+OVERALL RATING: 4.2/5 | WOULD TAKE AGAIN: 82% | DIFFICULTY: 2.2/5
+
+STUDENT REVIEWS:
+- "This guy really cares about his students and wants to make sure students can get jobs in top tech companies." (CSCI335, Apr 4th, 2022)
+- "He's not terrible - it's his first time teaching this course but he is adjusting his practices as the semester goes on." (CSCI335, Apr 1st, 2022)
+- "He's caring, knows how to teach properly and is reasonable with deadlines and policies." (CSCI335, Apr 2nd, 2022)
+- "He gave a project that was really easy... And so he decided to give a 15 point curve." (CSCI335, Apr 2nd, 2022)

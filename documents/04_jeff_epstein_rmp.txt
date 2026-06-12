@@ -1,0 +1,13 @@
+SOURCE: RateMyProfessors
+PROFESSOR: Jeff Epstein
+DEPARTMENT: Computer Science, Hunter College
+URL: https://www.ratemyprofessors.com/professor/1280182
+OVERALL RATING: 3.7/5 | WOULD TAKE AGAIN: 50% | DIFFICULTY: 3.6/5
+
+STUDENT REVIEWS:
+- "Good guy overall, however, his office hours were located on an island somewhere. Kinda sketchy ngl." (CSCI135, Apr 20th, 2026)
+- "Definitely an intelligent dude, knows what he's talking about but he is a very below-average human being." (CS170, Sep 20th, 2023)
+- "Very good professor. Highly recommend him. He explains the materials well. Very approachable." (CSCI135, May 3rd, 2013)
+- "He really knows how to explain and makes it easy for us to understand concepts." (CSCI135, Apr 27th, 2013)
+- "Great feedback, interesting concepts taught, and answers questions that are tangent to the lesson." (CSCI235, Jul 19th, 2010)
+- "Very funny and witty. Will be leaving sadly. Will be missed." (CSCI235, Jul 19th, 2010)

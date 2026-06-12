@@ -1,0 +1,338 @@
+[
+  {
+    "id": "01_khatchadourian_rmp_c0",
+    "text": "Professor Raffi Khatchadourian, RateMyProfessors — 4.2/5 | WOULD TAKE AGAIN: 82% | DIFFICULTY: 2.2/5. \"This guy really cares about his students and wants to make sure students can get jobs in top tech companies.\" (CSCI335, Apr 4th, 2022)",
+    "source": "01_khatchadourian_rmp.txt",
+    "professor": "Raffi Khatchadourian",
+    "doc_type": "review",
+    "char_count": 237
+  },
+  {
+    "id": "01_khatchadourian_rmp_c1",
+    "text": "Professor Raffi Khatchadourian, RateMyProfessors — 4.2/5 | WOULD TAKE AGAIN: 82% | DIFFICULTY: 2.2/5. \"He's not terrible - it's his first time teaching this course but he is adjusting his practices as the semester goes on.\" (CSCI335, Apr 1st, 2022)",
+    "source": "01_khatchadourian_rmp.txt",
+    "professor": "Raffi Khatchadourian",
+    "doc_type": "review",
+    "char_count": 248
+  },
+  {
+    "id": "01_khatchadourian_rmp_c2",
+    "text": "Professor Raffi Khatchadourian, RateMyProfessors — 4.2/5 | WOULD TAKE AGAIN: 82% | DIFFICULTY: 2.2/5. \"He's caring, knows how to teach properly and is reasonable with deadlines and policies.\" (CSCI335, Apr 2nd, 2022)",
+    "source": "01_khatchadourian_rmp.txt",
+    "professor": "Raffi Khatchadourian",
+    "doc_type": "review",
+    "char_count": 216
+  },
+  {
+    "id": "01_khatchadourian_rmp_c3",
+    "text": "Professor Raffi Khatchadourian, RateMyProfessors — 4.2/5 | WOULD TAKE AGAIN: 82% | DIFFICULTY: 2.2/5. \"He gave a project that was really easy... And so he decided to give a 15 point curve.\" (CSCI335, Apr 2nd, 2022)",
+    "source": "01_khatchadourian_rmp.txt",
+    "professor": "Raffi Khatchadourian",
+    "doc_type": "review",
+    "char_count": 214
+  },
+  {
+    "id": "02_susan_epstein_rmp_c0",
+    "text": "Professor Susan Epstein, RateMyProfessors — 2.1/5 | WOULD TAKE AGAIN: 16% | DIFFICULTY: 4.4/5. \"I learned more in this course than in any other CS class.\" (CSCI353, May 28th, 2026) \"She really really really picky on how you do stuff don't take her run\" (CSCI150, Apr 29th, 2026)",
+    "source": "02_susan_epstein_rmp.txt",
+    "professor": "Susan Epstein",
+    "doc_type": "review",
+    "char_count": 278
+  },
+  {
+    "id": "02_susan_epstein_rmp_c1",
+    "text": "Professor Susan Epstein, RateMyProfessors — 2.1/5 | WOULD TAKE AGAIN: 16% | DIFFICULTY: 4.4/5. \"Drop the files Susan...\" (CSCI150, Jan 22nd, 2026) \"She is smart, but can't teach. Lots of homework without clear rubric.\" (CSCI150, Dec 30th, 2025)",
+    "source": "02_susan_epstein_rmp.txt",
+    "professor": "Susan Epstein",
+    "doc_type": "review",
+    "char_count": 244
+  },
+  {
+    "id": "02_susan_epstein_rmp_c2",
+    "text": "Professor Susan Epstein, RateMyProfessors — 2.1/5 | WOULD TAKE AGAIN: 16% | DIFFICULTY: 4.4/5. \"The slides contains mistakes, dense with math.\" (CSCI150, Dec 30th, 2025) \"biggest larper in the history of ML\" (CS353, Jan 12th, 2026)",
+    "source": "02_susan_epstein_rmp.txt",
+    "professor": "Susan Epstein",
+    "doc_type": "review",
+    "char_count": 231
+  },
+  {
+    "id": "03_schweitzer_rmp_c0",
+    "text": "Professor Eric Schweitzer, RateMyProfessors — 2.6/5 | WOULD TAKE AGAIN: 36% | DIFFICULTY: 3.9/5. \"Learned a lot but I hate his pop quizzes.\" (CSCI265, Dec 22nd, 2025)",
+    "source": "03_schweitzer_rmp.txt",
+    "professor": "Eric Schweitzer",
+    "doc_type": "review",
+    "char_count": 166
+  },
+  {
+    "id": "03_schweitzer_rmp_c1",
+    "text": "Professor Eric Schweitzer, RateMyProfessors — 2.6/5 | WOULD TAKE AGAIN: 36% | DIFFICULTY: 3.9/5. \"The 1st time you take Eric, you'll think he's hot garbage at teaching. The 2nd time, you'll realize how much better he is.\" (CS265, Dec 18th, 2025)",
+    "source": "03_schweitzer_rmp.txt",
+    "professor": "Eric Schweitzer",
+    "doc_type": "review",
+    "char_count": 245
+  },
+  {
+    "id": "03_schweitzer_rmp_c2",
+    "text": "Professor Eric Schweitzer, RateMyProfessors — 2.6/5 | WOULD TAKE AGAIN: 36% | DIFFICULTY: 3.9/5. \"Eric is a great professor and anyone would be lucky to take a class with him.\" (CS265, Dec 15th, 2025)",
+    "source": "03_schweitzer_rmp.txt",
+    "professor": "Eric Schweitzer",
+    "doc_type": "review",
+    "char_count": 200
+  },
+  {
+    "id": "03_schweitzer_rmp_c3",
+    "text": "Professor Eric Schweitzer, RateMyProfessors — 2.6/5 | WOULD TAKE AGAIN: 36% | DIFFICULTY: 3.9/5. \"eric is one of the best professors at hunter college. if you think he is bad then you haven't seen other cs professors\" (CS265, Jul 12th, 2025)",
+    "source": "03_schweitzer_rmp.txt",
+    "professor": "Eric Schweitzer",
+    "doc_type": "review",
+    "char_count": 241
+  },
+  {
+    "id": "03_schweitzer_rmp_c4",
+    "text": "Professor Eric Schweitzer, RateMyProfessors — 2.6/5 | WOULD TAKE AGAIN: 36% | DIFFICULTY: 3.9/5. \"Schweitzer is fair. 15 quizzes (5 dropped) = 60%, final = 40%. HW mirrors quizzes.\" (CS265, Jun 14th, 2025) \"Prep 20-30 mins before class + steady effort = likely B or better.\" (CS265, Jun 14th, 2025)",
+    "source": "03_schweitzer_rmp.txt",
+    "professor": "Eric Schweitzer",
+    "doc_type": "review",
+    "char_count": 298
+  },
+  {
+    "id": "04_jeff_epstein_rmp_c0",
+    "text": "Professor Jeff Epstein, RateMyProfessors — 3.7/5 | WOULD TAKE AGAIN: 50% | DIFFICULTY: 3.6/5. \"Good guy overall, however, his office hours were located on an island somewhere. Kinda sketchy ngl.\" (CSCI135, Apr 20th, 2026)",
+    "source": "04_jeff_epstein_rmp.txt",
+    "professor": "Jeff Epstein",
+    "doc_type": "review",
+    "char_count": 221
+  },
+  {
+    "id": "04_jeff_epstein_rmp_c1",
+    "text": "Professor Jeff Epstein, RateMyProfessors — 3.7/5 | WOULD TAKE AGAIN: 50% | DIFFICULTY: 3.6/5. \"Definitely an intelligent dude, knows what he's talking about but he is a very below-average human being.\" (CS170, Sep 20th, 2023)",
+    "source": "04_jeff_epstein_rmp.txt",
+    "professor": "Jeff Epstein",
+    "doc_type": "review",
+    "char_count": 225
+  },
+  {
+    "id": "04_jeff_epstein_rmp_c2",
+    "text": "Professor Jeff Epstein, RateMyProfessors — 3.7/5 | WOULD TAKE AGAIN: 50% | DIFFICULTY: 3.6/5. \"Very good professor. Highly recommend him. He explains the materials well. Very approachable.\" (CSCI135, May 3rd, 2013)",
+    "source": "04_jeff_epstein_rmp.txt",
+    "professor": "Jeff Epstein",
+    "doc_type": "review",
+    "char_count": 214
+  },
+  {
+    "id": "04_jeff_epstein_rmp_c3",
+    "text": "Professor Jeff Epstein, RateMyProfessors — 3.7/5 | WOULD TAKE AGAIN: 50% | DIFFICULTY: 3.6/5. \"He really knows how to explain and makes it easy for us to understand concepts.\" (CSCI135, Apr 27th, 2013)",
+    "source": "04_jeff_epstein_rmp.txt",
+    "professor": "Jeff Epstein",
+    "doc_type": "review",
+    "char_count": 201
+  },
+  {
+    "id": "04_jeff_epstein_rmp_c4",
+    "text": "Professor Jeff Epstein, RateMyProfessors — 3.7/5 | WOULD TAKE AGAIN: 50% | DIFFICULTY: 3.6/5. \"Great feedback, interesting concepts taught, and answers questions that are tangent to the lesson.\" (CSCI235, Jul 19th, 2010)",
+    "source": "04_jeff_epstein_rmp.txt",
+    "professor": "Jeff Epstein",
+    "doc_type": "review",
+    "char_count": 220
+  },
+  {
+    "id": "04_jeff_epstein_rmp_c5",
+    "text": "Professor Jeff Epstein, RateMyProfessors — 3.7/5 | WOULD TAKE AGAIN: 50% | DIFFICULTY: 3.6/5. \"Very funny and witty. Will be leaving sadly. Will be missed.\" (CSCI235, Jul 19th, 2010)",
+    "source": "04_jeff_epstein_rmp.txt",
+    "professor": "Jeff Epstein",
+    "doc_type": "review",
+    "char_count": 182
+  },
+  {
+    "id": "05_st_john_rmp_c0",
+    "text": "Professor Katherine St. John, RateMyProfessors — 2.3/5 | WOULD TAKE AGAIN: 31% | DIFFICULTY: 3.7/5. \"You cannot just show up and expect everything to go well. You personally have to put in the effort and practice to earn a good grade.\" (CS127, May 24th, 2026)",
+    "source": "05_st_john_rmp.txt",
+    "professor": "Katherine St. John",
+    "doc_type": "review",
+    "char_count": 259
+  },
+  {
+    "id": "05_st_john_rmp_c1",
+    "text": "Professor Katherine St. John, RateMyProfessors — 2.3/5 | WOULD TAKE AGAIN: 31% | DIFFICULTY: 3.7/5. \"She offers a lot of extra credit and has clear grading criteria.\" (CS127, Feb 11th, 2026)",
+    "source": "05_st_john_rmp.txt",
+    "professor": "Katherine St. John",
+    "doc_type": "review",
+    "char_count": 190
+  },
+  {
+    "id": "05_st_john_rmp_c2",
+    "text": "Professor Katherine St. John, RateMyProfessors — 2.3/5 | WOULD TAKE AGAIN: 31% | DIFFICULTY: 3.7/5. \"Work was tedious as you were expected to do homework every other day as well as code reviews and quizzes.\" (CSCI12700, Feb 3rd, 2026)",
+    "source": "05_st_john_rmp.txt",
+    "professor": "Katherine St. John",
+    "doc_type": "review",
+    "char_count": 234
+  },
+  {
+    "id": "05_st_john_rmp_c3",
+    "text": "Professor Katherine St. John, RateMyProfessors — 2.3/5 | WOULD TAKE AGAIN: 31% | DIFFICULTY: 3.7/5. \"Much of the work was also barely covered in the lectures so you were pretty much on your own.\" (CSCI12700, Feb 3rd, 2026)",
+    "source": "05_st_john_rmp.txt",
+    "professor": "Katherine St. John",
+    "doc_type": "review",
+    "char_count": 222
+  },
+  {
+    "id": "06_korpan_rmp_c0",
+    "text": "Professor Raj Korpan, RateMyProfessors — 4.0/5 | WOULD TAKE AGAIN: 80% | DIFFICULTY: 2.8/5. \"Fair grade distribution, 55% from all the tests combined while the rest is from class opening sheets and HW.\" (CSCI150, Jun 2nd, 2026)",
+    "source": "06_korpan_rmp.txt",
+    "professor": "Raj Korpan",
+    "doc_type": "review",
+    "char_count": 227
+  },
+  {
+    "id": "06_korpan_rmp_c1",
+    "text": "Professor Raj Korpan, RateMyProfessors — 4.0/5 | WOULD TAKE AGAIN: 80% | DIFFICULTY: 2.8/5. \"Just make sure you stay on top of your project and attend class. Raj was pretty cool.\" (CSCI499, May 27th, 2025)",
+    "source": "06_korpan_rmp.txt",
+    "professor": "Raj Korpan",
+    "doc_type": "review",
+    "char_count": 205
+  },
+  {
+    "id": "06_korpan_rmp_c2",
+    "text": "Professor Raj Korpan, RateMyProfessors — 4.0/5 | WOULD TAKE AGAIN: 80% | DIFFICULTY: 2.8/5. \"If you are not within 10 seconds of the presentation time limit, even if you are early, you will lose A LOT of points.\" (CSCI499, Nov 10th, 2023)",
+    "source": "06_korpan_rmp.txt",
+    "professor": "Raj Korpan",
+    "doc_type": "review",
+    "char_count": 238
+  },
+  {
+    "id": "06_korpan_rmp_c3",
+    "text": "Professor Raj Korpan, RateMyProfessors — 4.0/5 | WOULD TAKE AGAIN: 80% | DIFFICULTY: 2.8/5. \"If you raise your hand then he will come over and help you with anything you need.\" (CS201, Dec 17th, 2021)",
+    "source": "06_korpan_rmp.txt",
+    "professor": "Raj Korpan",
+    "doc_type": "review",
+    "char_count": 200
+  },
+  {
+    "id": "07_makki_rmp_c0",
+    "text": "Professor Mahdi Makki, RateMyProfessors — 5.0/5 | WOULD TAKE AGAIN: 100% | DIFFICULTY: 3.1/5. \"Super chill professor. Knows his stuff and will answer any question you have.\" (CSCI435, May 2nd, 2026)",
+    "source": "07_makki_rmp.txt",
+    "professor": "Mahdi Makki",
+    "doc_type": "review",
+    "char_count": 198
+  },
+  {
+    "id": "07_makki_rmp_c1",
+    "text": "Professor Mahdi Makki, RateMyProfessors — 5.0/5 | WOULD TAKE AGAIN: 100% | DIFFICULTY: 3.1/5. \"He genuinely cares about teaching and supporting his students. He's fair and approachable.\" (CSCI435, Mar 18th, 2025)",
+    "source": "07_makki_rmp.txt",
+    "professor": "Mahdi Makki",
+    "doc_type": "review",
+    "char_count": 212
+  },
+  {
+    "id": "07_makki_rmp_c2",
+    "text": "Professor Mahdi Makki, RateMyProfessors — 5.0/5 | WOULD TAKE AGAIN: 100% | DIFFICULTY: 3.1/5. \"He really cares aside from teaching in giving good feedback whether it is for an interview.\" (CSCI435, Feb 1st, 2025)",
+    "source": "07_makki_rmp.txt",
+    "professor": "Mahdi Makki",
+    "doc_type": "review",
+    "char_count": 212
+  },
+  {
+    "id": "07_makki_rmp_c3",
+    "text": "Professor Mahdi Makki, RateMyProfessors — 5.0/5 | WOULD TAKE AGAIN: 100% | DIFFICULTY: 3.1/5. \"Prof. Makki has a lot of industry insights that were hugely beneficial in my job search.\" (CSCI435, Jan 12th, 2025)",
+    "source": "07_makki_rmp.txt",
+    "professor": "Mahdi Makki",
+    "doc_type": "review",
+    "char_count": 210
+  },
+  {
+    "id": "07_makki_rmp_c4",
+    "text": "Professor Mahdi Makki, RateMyProfessors — 5.0/5 | WOULD TAKE AGAIN: 100% | DIFFICULTY: 3.1/5. \"Prof Makki is truly a nice dude. He answered all my questions without being bothered.\" (CSCI435, Dec 28th, 2024)",
+    "source": "07_makki_rmp.txt",
+    "professor": "Mahdi Makki",
+    "doc_type": "review",
+    "char_count": 207
+  },
+  {
+    "id": "08_ko_naing_rmp_c0",
+    "text": "Professor Khant Ko Naing, RateMyProfessors — 3.8/5 | WOULD TAKE AGAIN: 75% | DIFFICULTY: 1.8/5. \"this is a review for his role as departmental staff. heard him talking smack about students failing out\" (CSCI135, May 21st, 2025)",
+    "source": "08_ko_naing_rmp.txt",
+    "professor": "Khant Ko Naing",
+    "doc_type": "review",
+    "char_count": 227
+  },
+  {
+    "id": "08_ko_naing_rmp_c1",
+    "text": "Professor Khant Ko Naing, RateMyProfessors — 3.8/5 | WOULD TAKE AGAIN: 75% | DIFFICULTY: 1.8/5. \"Undoubtedly the best person in that department. Who knows where they would all be without Ko?\" (CSCI135, Mar 12th, 2024)",
+    "source": "08_ko_naing_rmp.txt",
+    "professor": "Khant Ko Naing",
+    "doc_type": "review",
+    "char_count": 217
+  },
+  {
+    "id": "08_ko_naing_rmp_c2",
+    "text": "Professor Khant Ko Naing, RateMyProfessors — 3.8/5 | WOULD TAKE AGAIN: 75% | DIFFICULTY: 1.8/5. \"Great professor, he will help you out as much as he can and will provide helpful feedback towards your work.\" (CSCI135, May 15th, 2023)",
+    "source": "08_ko_naing_rmp.txt",
+    "professor": "Khant Ko Naing",
+    "doc_type": "review",
+    "char_count": 232
+  },
+  {
+    "id": "08_ko_naing_rmp_c3",
+    "text": "Professor Khant Ko Naing, RateMyProfessors — 3.8/5 | WOULD TAKE AGAIN: 75% | DIFFICULTY: 1.8/5. \"Ko is one of the best CS instructors at Hunter. Offers good advice, organized lectures and hilarious anecdotes.\" (CSCI135, Apr 21st, 2022)",
+    "source": "08_ko_naing_rmp.txt",
+    "professor": "Khant Ko Naing",
+    "doc_type": "review",
+    "char_count": 235
+  },
+  {
+    "id": "09_tong_yi_rmp_c0",
+    "text": "Professor Tong Yi, RateMyProfessors — 2.2/5 | WOULD TAKE AGAIN: 28% | DIFFICULTY: 3.9/5. \"The professor is a tough grader.\" (CS13500, May 28th, 2026)",
+    "source": "09_tong_yi_rmp.txt",
+    "professor": "Tong Yi",
+    "doc_type": "review",
+    "char_count": 149
+  },
+  {
+    "id": "09_tong_yi_rmp_c1",
+    "text": "Professor Tong Yi, RateMyProfessors — 2.2/5 | WOULD TAKE AGAIN: 28% | DIFFICULTY: 3.9/5. \"It's frustrating to struggle in an introductory course not because the material is too hard, but because it's difficult to understand how it's being taught.\" (CS13500, Apr 30th, 2026)",
+    "source": "09_tong_yi_rmp.txt",
+    "professor": "Tong Yi",
+    "doc_type": "review",
+    "char_count": 273
+  },
+  {
+    "id": "09_tong_yi_rmp_c2",
+    "text": "Professor Tong Yi, RateMyProfessors — 2.2/5 | WOULD TAKE AGAIN: 28% | DIFFICULTY: 3.9/5. \"Her accent is hard to understand so lectures were pretty useless.\" (CS13500, Aug 28th, 2025)",
+    "source": "09_tong_yi_rmp.txt",
+    "professor": "Tong Yi",
+    "doc_type": "review",
+    "char_count": 182
+  },
+  {
+    "id": "09_tong_yi_rmp_c3",
+    "text": "Professor Tong Yi, RateMyProfessors — 2.2/5 | WOULD TAKE AGAIN: 28% | DIFFICULTY: 3.9/5. \"Difficulty and lecture in class doesn't reflect in the assignments/projects (much harder).\" (CS13500, Aug 28th, 2025) \"The only reason I passed was because I went to tutoring.\" (CS13500, Jul 23rd, 2025)",
+    "source": "09_tong_yi_rmp.txt",
+    "professor": "Tong Yi",
+    "doc_type": "review",
+    "char_count": 292
+  },
+  {
+    "id": "10_csci135_syllabus_c0",
+    "text": "CSCI 13500 - Software Analysis & Design 1, Tong Yi — official course syllabus. LECTURE: Monday, Thursday 9:45-11:00 AM",
+    "source": "10_csci135_syllabus.txt",
+    "professor": "Tong Yi",
+    "doc_type": "syllabus",
+    "char_count": 118
+  },
+  {
+    "id": "10_csci135_syllabus_c1",
+    "text": "CSCI 13500 - Software Analysis & Design 1, Tong Yi — official course syllabus. WORKLOAD EXPECTATIONS: \"Most students will need to spend between 10 and 15 hours a week at a computer\" in addition to class time, totaling roughly 15-20 hours weekly on algorithm development, coding, and debugging.",
+    "source": "10_csci135_syllabus.txt",
+    "professor": "Tong Yi",
+    "doc_type": "syllabus",
+    "char_count": 293
+  },
+  {
+    "id": "10_csci135_syllabus_c2",
+    "text": "CSCI 13500 - Software Analysis & Design 1, Tong Yi — official course syllabus. NOTE: This is an official course document (not a review). It is included to give the system ground-truth context about course structure and expected workload, which student reviews often reference indirectly (e.g. \"very time-consuming\").",
+    "source": "10_csci135_syllabus.txt",
+    "professor": "Tong Yi",
+    "doc_type": "syllabus",
+    "char_count": 316
+  }
+]

@@ -1,0 +1,13 @@
+SOURCE: RateMyProfessors
+PROFESSOR: Eric Schweitzer
+DEPARTMENT: Computer Science, Hunter College
+URL: https://www.ratemyprofessors.com/professor/257192
+OVERALL RATING: 2.6/5 | WOULD TAKE AGAIN: 36% | DIFFICULTY: 3.9/5
+
+STUDENT REVIEWS:
+- "Learned a lot but I hate his pop quizzes." (CSCI265, Dec 22nd, 2025)
+- "The 1st time you take Eric, you'll think he's hot garbage at teaching. The 2nd time, you'll realize how much better he is." (CS265, Dec 18th, 2025)
+- "Eric is a great professor and anyone would be lucky to take a class with him." (CS265, Dec 15th, 2025)
+- "eric is one of the best professors at hunter college. if you think he is bad then you haven't seen other cs professors" (CS265, Jul 12th, 2025)
+- "Schweitzer is fair. 15 quizzes (5 dropped) = 60%, final = 40%. HW mirrors quizzes." (CS265, Jun 14th, 2025)
+- "Prep 20-30 mins before class + steady effort = likely B or better." (CS265, Jun 14th, 2025)

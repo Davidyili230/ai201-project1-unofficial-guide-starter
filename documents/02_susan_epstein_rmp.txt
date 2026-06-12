@@ -1,0 +1,13 @@
+SOURCE: RateMyProfessors
+PROFESSOR: Susan Epstein
+DEPARTMENT: Computer Science, Hunter College
+URL: https://www.ratemyprofessors.com/professor/192300
+OVERALL RATING: 2.1/5 | WOULD TAKE AGAIN: 16% | DIFFICULTY: 4.4/5
+
+STUDENT REVIEWS:
+- "I learned more in this course than in any other CS class." (CSCI353, May 28th, 2026)
+- "She really really really picky on how you do stuff don't take her run" (CSCI150, Apr 29th, 2026)
+- "Drop the files Susan..." (CSCI150, Jan 22nd, 2026)
+- "She is smart, but can't teach. Lots of homework without clear rubric." (CSCI150, Dec 30th, 2025)
+- "The slides contains mistakes, dense with math." (CSCI150, Dec 30th, 2025)
+- "biggest larper in the history of ML" (CS353, Jan 12th, 2026)

@@ -1,0 +1,12 @@
+SOURCE: RateMyProfessors
+PROFESSOR: Tong Yi
+DEPARTMENT: Computer Science, Hunter College
+URL: https://www.ratemyprofessors.com/professor/2634841
+OVERALL RATING: 2.2/5 | WOULD TAKE AGAIN: 28% | DIFFICULTY: 3.9/5
+
+STUDENT REVIEWS:
+- "The professor is a tough grader." (CS13500, May 28th, 2026)
+- "It's frustrating to struggle in an introductory course not because the material is too hard, but because it's difficult to understand how it's being taught." (CS13500, Apr 30th, 2026)
+- "Her accent is hard to understand so lectures were pretty useless." (CS13500, Aug 28th, 2025)
+- "Difficulty and lecture in class doesn't reflect in the assignments/projects (much harder)." (CS13500, Aug 28th, 2025)
+- "The only reason I passed was because I went to tutoring." (CS13500, Jul 23rd, 2025)

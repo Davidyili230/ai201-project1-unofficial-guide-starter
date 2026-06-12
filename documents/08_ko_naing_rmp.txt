@@ -1,0 +1,11 @@
+SOURCE: RateMyProfessors
+PROFESSOR: Khant Ko Naing
+DEPARTMENT: Computer Science, Hunter College
+URL: https://www.ratemyprofessors.com/professor/2693848
+OVERALL RATING: 3.8/5 | WOULD TAKE AGAIN: 75% | DIFFICULTY: 1.8/5
+
+STUDENT REVIEWS:
+- "this is a review for his role as departmental staff. heard him talking smack about students failing out" (CSCI135, May 21st, 2025)
+- "Undoubtedly the best person in that department. Who knows where they would all be without Ko?" (CSCI135, Mar 12th, 2024)
+- "Great professor, he will help you out as much as he can and will provide helpful feedback towards your work." (CSCI135, May 15th, 2023)
+- "Ko is one of the best CS instructors at Hunter. Offers good advice, organized lectures and hilarious anecdotes." (CSCI135, Apr 21st, 2022)

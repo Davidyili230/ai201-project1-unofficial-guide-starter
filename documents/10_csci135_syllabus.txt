@@ -1,0 +1,15 @@
+SOURCE: Course Syllabus (instructor-published)
+COURSE: CSCI 13500 - Software Analysis & Design 1
+INSTRUCTOR: Tong Yi (ty680@hunter.cuny.edu)
+URL: https://tong-yee.github.io/135/syllabus_135_s21.html
+
+LECTURE: Monday, Thursday 9:45-11:00 AM
+
+WORKLOAD EXPECTATIONS:
+"Most students will need to spend between 10 and 15 hours a week at a computer"
+in addition to class time, totaling roughly 15-20 hours weekly on algorithm
+development, coding, and debugging.
+
+NOTE: This is an official course document (not a review). It is included to give
+the system ground-truth context about course structure and expected workload,
+which student reviews often reference indirectly (e.g. "very time-consuming").
