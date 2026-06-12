@@ -1,0 +1,4 @@
+Query 1 (Retrival Works well): How responsive is Professor Mahdi Makki to student questions?
+Query 2 (Source Citation): How much time per week does CSCI 13500 (Software Analysis & Design 1) require?
+Query 3 (Source Citation): What do students say about the clarity of Professor Tong Yi's lectures in CSCI 13500?
+Query 4 (System struggles): What do students say about the clarity of Professor Susan Epstein's grading rubrics?
