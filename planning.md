@@ -41,11 +41,11 @@
      numbers fit the structure of your documents.
      A review-heavy corpus warrants different chunking than a long FAQ. -->
 
-**Chunk size:**
+**Chunk size:** 300 characters (~75 tokens)
 
-**Overlap:**
+**Overlap:** 50 characters (~15 tokens)
 
-**Reasoning:**
+**Reasoning:** Reviews are opinion-heavy, short-to-medium documents (typically 1–2 sentences). A 300 character chunk captures one complete review or a discrete observation (e.g., "Great lectures but hard exams"). Smaller chunks (< 200 chars) lose context and split single opinions. Larger chunks (> 600 chars) mix multiple review aspects, reducing retrieval precision. Small overlap (50 chars) preserves key adjectives and context when boundaries fall mid-opinion (e.g., "very responsive office hours" doesn't get split). This prevents queries like "office hours" from missing chunks cut at phrase boundaries.
 
 ---
 
@@ -57,11 +57,11 @@
      would you weigh in choosing a different embedding model — context length, multilingual
      support, accuracy on domain-specific text, latency? -->
 
-**Embedding model:**
+**Embedding model:** all-MiniLM-L6-v2 via sentence-transformers (384-dim, lightweight, domain-agnostic)
 
-**Top-k:**
+**Top-k:** 6–8 chunks
 
-**Production tradeoff reflection:**
+**Production tradeoff reflection:** all-MiniLM-L6-v2 is fast and good for general semantic similarity, but it's not fine-tuned for CS education discourse. In production (cost unconstrained), I'd consider: (1) a larger model like all-mpnet-base-v2 (768-dim) for deeper semantic understanding of teaching quality, workload, and professor style, or (2) a domain-specific model fine-tuned on education reviews. Top-k = 6–8 provides enough context for the LLM to synthesize diverse opinions without overwhelming it or creating contradictory signals. Too few (< 4) risks missing nuance; too many (> 12) could water down strong consensus opinions with noise.
 
 ---
 
@@ -74,11 +74,11 @@
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 | What do students say about Professor [Name]'s lecture clarity in Data Structures? | Students mention whether lectures are clear/organized or hard to follow; specific comments on pace, examples, or note-taking difficulty |
+| 2 | How much time do students report spending on [Professor's Name] assignments per week? | Estimates of weekly hours (e.g., "5–10 hours", "very time-consuming") and whether workload feels reasonable for a CS course |
+| 3 | Are Professor [Name]'s office hours easy to attend, and how responsive is he/she to student questions? | Comments on office hour availability, wait times, willingness to help, or difficulty getting answers |
+| 4 | What do students say about fairness and clarity of grading rubrics in [Professor's Name]'s exams? | Student feedback on whether rubrics are clear upfront, if grading surprises occur, or if exam difficulty matches course material |
+| 5 | Do students feel [Professor's Name]'s course material connects to real-world CS applications? | Comments on relevance to industry, project types, real-world problem-solving emphasis, or theory-vs-practice balance |
 
 ---
 
@@ -88,9 +88,9 @@
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1.
+1. **Conflicting opinions across time and sources**: Reviews of the same professor from different semesters or platforms may contradict each other (e.g., "hard grader Fall 2023" vs "fair grader Spring 2024"). Without explicit timestamps or source tracking in retrieved chunks, the LLM may synthesize conflicting claims as simultaneous fact rather than acknowledging temporal change. Risk: Aggregated answer lacks nuance and misleads users.
 
-2.
+2. **Loss of source credibility and attribution**: Chunks are stored without explicit source metadata, making it hard for the LLM to distinguish between verified course evals (credible) and anonymous Reddit posts (potentially hearsay). Retrieved chunks lack clear attribution, so the system may treat anecdotal complaints equally with systematic student feedback. Risk: Answers feel authoritative but are built on fragmented, uncredentialed sources.
 
 ---
 
@@ -101,6 +101,19 @@
      Label each stage with the tool or library you're using.
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
+
+```mermaid
+graph LR
+    A["Document Ingestion<br/>(Python + requests)"] -->|Raw reviews| B["Chunking<br/>(Custom Python)"]
+    B -->|300 char chunks| C["Embedding<br/>(sentence-transformers)"]
+    C -->|384-dim vectors| D["ChromaDB"]
+    
+    E["User Query"] -->|Embed| F["Retrieval<br/>(similarity search)"]
+    D -->|Store| F
+    
+    F -->|Top-k=6-8 chunks| G["Generation<br/>(Groq LLM)"]
+    G -->|Answer| H["Output"]
+```
 
 ---
 
